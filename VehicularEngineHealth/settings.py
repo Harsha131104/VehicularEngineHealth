@@ -26,7 +26,7 @@ SECRET_KEY = '(28tug=$-i3d!$$s3@7s3op497++rizbc=ab7-c$3#cv2t8=ed'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://vehicularenginehealth.onrender.com','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 #Mansoor@Copy Right 04/07/25
 # Application definition
