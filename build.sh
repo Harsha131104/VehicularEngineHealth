@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -o errexit  # exit on error
 
+echo "🔧 Upgrading pip..."
+pip install --upgrade pip
+
 echo "Installing dependencies..."
 pip install -r requirements.txt
 
